@@ -1,0 +1,49 @@
+name: exam_b28_abduraimov_muhammadyusuf_module_6
+description: This is exam Task
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - assets/images/
+   - assets/icons/
+
+  fonts:
+   - family: Airbnb
+     fonts:
+       - asset: assets/fonts/Aribnb_font/AirbnbCereal_W_Bd.otf
+       - asset: assets/fonts/Aribnb_font/AirbnbCereal_W_Bk.otf
+       - asset: assets/fonts/Aribnb_font/AirbnbCereal_W_Blk.otf
+       - asset: assets/fonts/Aribnb_font/AirbnbCereal_W_Lt.otf
+       - asset: assets/fonts/Aribnb_font/AirbnbCereal_W_Md.otf
+       - asset: assets/fonts/Aribnb_font/AirbnbCereal_W_XBd.otf
+   - family: HelveticaNeu
+     fonts:
+       - asset: assets/fonts/Helvetica_Neue_Font/Helvetica_Neue_LTW0697BlkCnObl.ttf
+       - asset: assets/fonts/Helvetica_Neue_Font/Helvetica_Neue_Medium_Extended.ttf
+       - asset: assets/fonts/Helvetica_Neue_Font/Helvetica_Neue_UltraLight.ttf
+       - asset: assets/fonts/Helvetica_Neue_Font/Helvetica_Neue_W01_66_Medium_It.ttf
+       - asset: assets/fonts/Helvetica_Neue_Font/Helvetica_Neue_W01_77_Bd_Cn_Obl.ttf
+       - asset: assets/fonts/Helvetica_Neue_Font/Helvetica_Neue_W01_87_Hv_Cn_Obl.ttf
+       - asset: assets/fonts/Helvetica_Neue_Font/Helvetica_NeueLTW0693BlkExtObl.ttf
